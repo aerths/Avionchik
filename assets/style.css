@@ -1,0 +1,744 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+@font-face {
+    font-family: "ClashDisplay";
+    src: url(../font/ClashDisplay-Variable.ttf);
+}
+@font-face {
+    font-family: "satoshi";
+    src: url(../font/Satoshi-Regular.ttf);
+}
+.container{
+    /* margin: 0 auto; */
+    width: 1800px;
+}
+.head{
+    margin-top: 4vh;
+}
+.head_one{
+    display: flex;
+    align-items: center;
+}
+.lupa{
+    margin-left: 0;
+}
+.text_avion{
+    font-family: 'ClashDisplay';
+    font-size: 32px;
+    color: #22202E;
+    text-align: center;
+}
+.right{
+    display: flex;
+    gap: 21px;
+    margin-right: 0;
+}
+.shopping_cart{
+    width: 22px;
+    height: 22px;
+}
+.user{
+    width: 22px;
+    height: 22px;
+}
+.lupa_390{
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+.menu{
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+.head_two_line{
+    width: 1848px;
+    height: 5px;
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+    width: 912px;
+    display: flex;
+    gap: 58px;
+    font-family: "satoshi";
+    font-size: 22px;
+    color: #726E8D;
+    margin-top: 26px;
+}
+.block_one{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    margin-top: 80px;
+}
+.left_block{
+    display: inline;
+    width: 1013px;
+    height: 779px;
+    background-color: #2A254B;
+    margin: 0;
+}
+.right_block{
+    display: inline;
+    width: 693px;
+    height: 779px;
+    margin: 0;
+}
+
+.right_block_img{
+    width: 693px;
+    height: 778px;
+    left: 1013px;
+}
+
+.text_left_block{
+    width: 851px;
+    gap: 5px;
+    margin-top: 80px;
+    justify-content: center;
+}
+.h1_t{
+    font-family: 'ClashDisplay';
+    font-size: 42px;
+    color: white;
+}
+.button_1{
+    margin: 0;
+}
+.bth1{
+    margin-top: 30px;
+    width: 226px;
+    height: 74px;
+    background: #F9F9F926;
+    font-family: "satoshi";
+    font-size: 22px;
+    color: white;
+}
+.text_under{
+    font-family: "satoshi";
+    font-size: 24px;
+    color: white;
+}
+.v{
+    display: flex;
+    flex-direction: column;
+    gap: 291px;
+    justify-content: left;
+}
+.text_on_390{
+    font-size: 18px;
+    display: none;
+}
+.text_block_two{
+    font-family: 'ClashDisplay';
+    font-size: 32px;
+    color: #2A254B;
+    text-align: center;
+    margin-top: 90px;
+}
+.flex_block{
+    display: flex;
+    gap: 79px;
+    margin-top: 68px;
+    flex-wrap: wrap;
+}
+.flex_one{
+    width: 360px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.flex_img{
+    margin: 0;
+    width: 32px;
+    height: 32px;
+}
+.flex_h1{
+    font-family: 'ClashDisplay';
+    font-size: 26px;
+    color: #2A254B;
+    margin: 0;
+}
+.flex_h2{
+    font-family: 'ClashDisplay';
+    font-size: 22px;
+    color: #2A254B;
+}
+.block_three{
+    padding-top: 103px;
+}
+.text_block_three{
+    font-family: 'ClashDisplay';
+    font-size: 42px;
+    color: #2A254B;
+    margin-top: 90px;
+}
+.flex_three{
+    display: flex;
+    gap: 26px;
+    margin-top: 43px;
+    flex-wrap: wrap;
+}
+.flex_three_one{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: 'ClashDisplay';
+    font-size: 26px;
+    color: #2A254B;
+}
+.text_flex_four{
+    margin: 0;
+}
+.e{
+    margin-top: 12px;
+}
+.button_2{
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+}
+.bth2{
+    margin-top: 30px;
+    width: 226px;
+    height: 74px;
+    background: #F9F9F9;
+    font-family: "satoshi";
+    font-size: 22px;
+    color: #2A254B;
+}
+.block_five{
+    width: 100%;
+    height: 641px;
+    background-color: #F9F9F9;
+    margin-top: 64px;
+}
+.text_block_five{
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    color: #2A254B;
+}
+.h1_five{
+    font-family: 'ClashDisplay';
+    font-size: 48px;
+}
+.h2_five{
+    font-family: "satoshi";
+    font-size: 22px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    width: 630px;
+    margin-top: 128px;
+}
+.in{
+    display: flex;
+    justify-content: center;
+    width: 472px;
+    height: 74.66667175292969px;
+    color: #2A254B;
+    font-family: "satoshi";
+    font-size: 22px;
+    padding-left: 20px;
+}
+.bth3{
+    width: 157px;
+    height: 74.66667175292969px;
+    background-color: #2A254B;
+    font-family: "satoshi";
+    font-size: 22px;
+    color: white;
+}
+.button{
+    width: 157px;
+    height: 74.66667175292969px;
+}
+.six{
+    display: flex;
+}
+.block_right_six{
+    margin-right: 0;
+}
+.block_left_six{
+    display: flex;
+    flex-direction: column;
+    margin-top: 62px;
+    gap: 305px;
+}
+.text_left_six{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    color: #2A254B;
+}
+.h1_six{
+    font-family: 'ClashDisplay';
+    font-size: 32px;
+}
+.h2_six{
+    font-family: "satoshi";
+    font-size: 22px;
+}
+.button_4{
+    margin: 0;
+}
+footer{
+    height: 506px;
+    background-color: #2A254B;
+}
+.seven{
+    display: flex;
+}
+.flex_column{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 145px;
+    margin-top: 77px;
+    margin-left: 0;
+}
+.column_one{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    font-family: "satoshi";
+    font-size: 19px;
+}
+.h1_column{
+    font-family: 'ClashDisplay';
+    font-size: 22px;
+}
+ul{
+    margin: 0;
+}
+.h1_right_seven{
+    font-family: 'ClashDisplay';
+    font-size: 22px;
+    color: white;
+    margin-top: 77px;
+}
+.form2{
+    display: flex;
+    width: 647px;
+    margin-top: 21px;
+}
+.in2{
+    display: flex;
+    justify-content: center;
+    width: 472px;
+    height: 74.66667175292969px;
+    background-color: #FFFFFF26;
+    font-family: "satoshi";
+    font-size: 22px;
+    padding-left: 20px;
+    color: white;
+}
+.bth_seven{
+    width: 157px;
+    height: 74.66667175292969px;
+    background-color: white;
+    font-family: "satoshi";
+    font-size: 22px;
+    color: #2A254B;
+}
+.button_sev{
+    width: 157px;
+    height: 74.66667175292969px;
+}
+.under_polosa{
+    margin-top: 32px;
+    font-family: "satoshi";
+    font-size: 19px;
+    color: white;
+}
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .container{
+        width: 1320px;
+    }
+    .left_block{
+        width: 760px;
+        height: 584px;
+    }
+    .right_block{
+        height: 584px;
+        width: 520px;
+    }
+    .right_block_img{
+        height: 584px;
+        width: 520px;
+    }
+    .text_left_block{
+        width: 590px;
+    }
+    .h1_t{
+        font-size: 32px;
+    }
+    .bth1{
+        width: 170px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .text_under{
+        font-size: 18px;
+    }
+    .v{
+        gap: 196px;
+    }
+    .text_block_two{
+        font-size: 24px;
+    }
+    .flex_block{
+        gap: 59px;
+    }
+    .flex_one{
+        width: 270px;
+        height: 124px;
+        gap: 16px;
+    }
+    .flex_img{
+        width: 24px;
+        height: 24px;
+    }
+    .flex_h1{
+        font-size: 20px;
+    }
+    .flex_h2{
+        font-size: 16px;
+    }
+    .text_block_three{
+        font-size: 32px;
+    }
+    .flex_three_one_img{
+        width: 305px;
+        height: 375px;
+    }
+    .text_flex_three{
+        font-size: 20px;
+    }
+    .e{
+        font-size: 18px;
+    }
+    .bth2{
+        width: 170px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .flex_four_one_img{
+        width: 630px;
+        height: 375px;
+    }
+    .flex_four_two_img{
+        width: 305px;
+        height: 375px;
+    }
+    .block_five{
+        height: 481px;
+    }
+    .text_block_five{
+        padding-top: 120px;
+    }
+    .h1_five{
+        font-size: 36px;
+    }
+    .h2_five{
+        font-size: 16px;
+    }
+    .form{
+        width: 472px;
+        margin-top: 72px;
+    }
+    .in{
+        width: 354px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .bth3{
+        width: 118px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .block_left_six{
+        gap: 196px;
+    }
+    .block_right_six_img{
+        width: 720px;
+        height: 603px;
+    }
+    .h1_six{
+        font-size: 24px;
+    }
+    .h2_six{
+        font-size: 16px;
+    }
+    footer{
+        height: 380px;
+    }
+    .flex_column{
+        gap: 109px;
+        margin-top: 58px;
+    }
+    .column_one{
+        font-size: 14px;
+    }
+    .h1_column{
+        font-size: 16px;
+    }
+    .h1_right_seven{
+        font-size: 16px;
+        margin-top: 58px;
+    }
+    .form2{
+        width: 627px;
+        height: 56px;
+    }
+    .in2{
+        width: 509px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .bth_seven{
+        width: 118px;
+        height: 56px;
+        font-size: 16px;
+    }
+    hr{
+        width: 1277px;
+    }
+    .under_polosa{
+        font-size: 14px;
+        margin-top: 24px;
+    }
+}
+@media screen  and (min-width: 360px) and (max-width: 1440px) {
+    .container{
+        width: 360px;
+    }
+    .lupa{
+        width: 16px;
+        height: 16px;
+        margin-right: 0;
+    }
+    .text_avion{
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .shopping_cart{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .lupa{
+        display: none;
+    }
+    .lupa_390{
+        display: flex;
+    }
+    .right_block{
+        display: none
+    }
+    .left_block{
+        width: 390px;
+        height: 502px;
+    }
+    .h1_t{
+        font-size: 32px;
+    }
+    .text_on_390{
+        display: flex;
+        color: white;
+        font-family: "satoshi";
+    }
+    .text_under{
+        display: none;
+    }
+    .bth1{
+        width: 342px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .navigation{
+        display: none;
+    }
+    .hrr{
+        display: none;
+    }
+    .block_one{
+        margin-top: 19px;
+    }
+    .text_left_block{
+        width: 350px;
+        gap: 20px;
+    }
+    .v{
+        margin-top: 80px;
+        gap: 0px;
+    }
+    .text_block_two{
+        font-size: 20px;
+        margin-top: 48px;
+    }
+    .block_three{
+        padding-top: 0px;
+    }
+    .text_block_three{
+        font-size: 20px;
+    }
+    .flex_block{
+        gap: 36px;
+        margin-top: 36px;
+    }
+    .flex_img{
+        width: 24px;
+        height: 24px;
+    }
+    .flex_one{
+        width: 342px;
+        height: 116px;
+        gap: 16px;
+    }
+    .flex_h1{
+        font-size: 16px;
+    }
+    .flex_h2{
+        font-size: 14px;
+    }
+    .flex_three_one_img{
+        width: 163px;
+        height: 201px;
+    }
+    .text_flex_three{
+        font-size: 20px;
+    }
+    .e{
+        font-size: 18px;
+    }
+    .button_2{
+        margin-top: 29px;
+    }
+    .bth2{
+        width: 342px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .flex_four_one_img{
+        width: 342px;
+        height: 207px;
+    }
+    .text_flex_four{
+        display: none;
+    }
+    .flex_four_two_img{
+        display: none;
+    }
+    .button_2{
+        width: 342px;
+        height: 56px;
+    }
+    .block_five{
+        background-color: white;
+        height: 292px;
+        margin-top: 60px;
+    }
+    .text_block_five{
+        padding-top: 0px;
+        gap: 16px;
+    }
+    .h1_five{
+        font-size: 20px;
+    }
+    .h2_five{
+        font-size: 14px;
+    }
+    .form{
+        width: 342px;
+        height: 56px;
+    }
+    .in{
+        width: 224px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .bth3{
+        width: 118px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .button{
+        width: 118px;
+        height: 56px;
+    }
+    .six{
+        flex-direction: column;
+    }
+    .h1_six{
+        font-size: 20px;
+    }
+    .h2_six{
+        font-size: 14px;
+    }
+    .block_left_six{
+        gap: 10px;
+    }
+    .block_right_six_img{
+        width: 390px;
+        height: 358px;
+        justify-content: center;
+    }
+    .block_right_six{
+        margin-top: 30px;
+    }
+    .flex_column{
+        gap: 20px;
+    }
+    .seven{
+        flex-direction: column;
+    }
+    .h1_column{
+        font-size: 16px;
+    }
+    .column_one{
+        font-size: 14px;
+    }
+    .h1_right_seven{
+        font-size: 16px;
+    }
+    .form2{
+        width: 342px;
+        height: 56px;
+    }
+    .in2{
+        width: 224px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .bth_seven{
+        width: 118px;
+        height: 56px;
+        font-size: 16px;
+    }
+    .button_sev{
+        width: 118px;
+        height: 56px;
+    }
+    .under_polosa{
+        text-align: center;
+        font-size: 14px;
+    }
+    footer{
+        height: 668px;
+    }
+}
