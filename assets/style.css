@@ -93,6 +93,7 @@ a {
     margin-top: 26px;
     flex-wrap: wrap;
     justify-content: center;
+    justify-self: center;
 }
 
 .navigation a {
@@ -312,7 +313,7 @@ a {
 
 .flex_four_one_img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 9 / 10.8;
     object-fit: cover;
     border-radius: 8px;
 }
